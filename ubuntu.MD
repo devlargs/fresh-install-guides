@@ -18,14 +18,6 @@ ssh-keygen -t rsa -C "devlargs@gmail.com"
 cat ~/.ssh/id_rsa.pub
 ```
 
-### Laravel
-
-- Make sure you've installed [Composer](https://getcomposer.org/) locally
-
-```
-
-```
-
 ### Mongo
 
 ```
