@@ -18,6 +18,14 @@ ssh-keygen -t rsa -C "devlargs@gmail.com"
 cat ~/.ssh/id_rsa.pub
 ```
 
+### Laravel
+
+- Make sure you've installed [Composer](https://getcomposer.org/) locally
+
+```
+
+```
+
 ### Mongo
 
 ```
@@ -39,6 +47,15 @@ mongo
 sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 sudo apt-get install nodejs
+```
+
+### PHP
+
+```
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt install php7.3 php7.3-common php7.3-opcache php7.3-cli php7.3-gd php7.3-curl php7.3-mysql
+php -v
 ```
 
 ### Slack
@@ -63,4 +80,5 @@ sudo apt install code
 
 I do not recommend these softwares to be downloaded via command line interface because it doesnt show the proper icons when it is being displayed on the taskbar.
 
+- Composer
 - Gitkraken
