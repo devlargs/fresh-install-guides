@@ -74,3 +74,29 @@ I do not recommend these softwares to be downloaded via command line interface b
 
 - Composer
 - Gitkraken
+
+## Useful NPM Plugins
+
+### Nodemon
+
+```
+npm install -g nodemon
+```
+
+### React Native
+
+```
+npm install -g expo-cli
+```
+
+### Typescript
+
+```
+npm install -g typescript
+```
+
+### Vue
+
+```
+npm install -g @vue/cli
+```
