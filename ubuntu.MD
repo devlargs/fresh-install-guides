@@ -57,6 +57,12 @@ wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.d
 sudo apt install ./slack-desktop-*.deb
 ```
 
+### Skype
+```
+wget https://go.skype.com/skypeforlinux-64.deb
+sudo apt install ./skypeforlinux-64.deb
+```
+
 ### Visual Studio Code
 
 ```
@@ -64,6 +70,13 @@ sudo apt install software-properties-common apt-transport-https wget
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt install code
+```
+
+### VLC
+
+```
+sudo apt-get update
+sudo apt-get install vlc
 ```
 
 ---
