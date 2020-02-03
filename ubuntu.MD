@@ -76,7 +76,7 @@ sudo apt install code
 
 ```
 sudo apt-get update
-sudo apt-get install vlc
+sudo snap install vlc
 ```
 
 ---
