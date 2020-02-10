@@ -50,6 +50,11 @@ sudo apt install php7.3 php7.3-common php7.3-opcache php7.3-cli php7.3-gd php7.3
 php -v
 ```
 
+### Spotify 
+```
+snap install spotify
+```
+
 ### Slack
 
 ```
