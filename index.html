@@ -1,1 +1,64 @@
-<h1>Test</h1>
+<h1 id="fresh-install-setup-for-ubuntu">Fresh Install Setup for Ubuntu</h1>
+<h2 id="installation">Installation</h2>
+<h3 id="altair">Altair</h3>
+<pre><code>sudo snap install altair</code></pre>
+<h3 id="git">Git</h3>
+<pre><code>sudo apt install git
+git config --global user.name &quot;Ralph Largo&quot;
+git config --global user.email &quot;devlargs@gmail.com&quot;
+ssh-keygen -t rsa -C &quot;devlargs@gmail.com&quot;
+cat ~/.ssh/id_rsa.pub</code></pre>
+<h3 id="mongo">Mongo</h3>
+<pre><code>sudo apt remove --autoremove mongodb-org
+sudo rm /etc/apt/sources.list.d/mongodb*.list
+sudo apt update
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 4B7C549A058F8B6B
+echo &quot;deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse&quot; | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+sudo apt update
+sudo apt install mongodb-org
+systemctl enable mongod.service
+systemctl start mongod.service
+mongo</code></pre>
+<h3 id="node-js">Node JS</h3>
+<pre><code>sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install nodejs</code></pre>
+<h3 id="php">PHP</h3>
+<pre><code>sudo apt install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt install php7.3 php7.3-common php7.3-opcache php7.3-cli php7.3-gd php7.3-curl php7.3-mysql
+php -v</code></pre>
+<h3 id="shutter">Shutter</h3>
+<pre><code> sudo apt-get install shutter</code></pre>
+<h3 id="spotify">Spotify</h3>
+<pre><code>snap install spotify</code></pre>
+<h3 id="slack">Slack</h3>
+<pre><code>wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
+sudo apt install ./slack-desktop-*.deb</code></pre>
+<h3 id="skype">Skype</h3>
+<pre><code>wget https://go.skype.com/skypeforlinux-64.deb
+sudo apt install ./skypeforlinux-64.deb</code></pre>
+<h3 id="visual-studio-code">Visual Studio Code</h3>
+<pre><code>sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository &quot;deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main&quot;
+sudo apt install code</code></pre>
+<h3 id="vlc">VLC</h3>
+<pre><code>sudo apt-get update
+sudo snap install vlc</code></pre>
+<hr />
+<h3 id="other-software-to-be-downloaded-via-website">Other Software to be downloaded via website</h3>
+<p>I do not recommend these softwares to be downloaded via command line interface because it doesnt show the proper icons when it is being displayed on the taskbar.</p>
+<ul>
+<li>Composer</li>
+<li>Gitkraken</li>
+</ul>
+<h2 id="useful-npm-plugins">Useful NPM Plugins</h2>
+<h3 id="nodemon">Nodemon</h3>
+<pre><code>npm install -g nodemon</code></pre>
+<h3 id="react-native">React Native</h3>
+<pre><code>npm install -g expo-cli</code></pre>
+<h3 id="typescript">Typescript</h3>
+<pre><code>npm install -g typescript</code></pre>
+<h3 id="vue">Vue</h3>
+<pre><code>npm install -g @vue/cli</code></pre>
