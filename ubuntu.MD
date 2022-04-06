@@ -98,6 +98,11 @@ sudo apt-get update
 sudo snap install vlc
 ```
 
+### Gitkraken
+```
+sudo snap install gitkraken --classic
+```
+
 ---
 
 ### Other Software to be downloaded via website
@@ -105,7 +110,6 @@ sudo snap install vlc
 I do not recommend these softwares to be downloaded via command line interface because it doesnt show the proper icons when it is being displayed on the taskbar.
 
 - Composer
-- Gitkraken
 
 ## Useful NPM Plugins
 
