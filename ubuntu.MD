@@ -51,8 +51,17 @@ php -v
 ```
 
 ### Shutter
+
+#### For v18 below
 ```
  sudo apt-get install shutter
+```
+
+#### For 20.04
+```
+sudo add-apt-repository -y ppa:linuxuprising/shutter
+sudo apt-get update
+sudo apt-get install -y shutter
 ```
 
 ### Spotify 
